@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Ubuntu&display=swap');
+* {
+    font-family: "Ubuntu", sans-serif;  
+}
+body {
+    background-color: #004;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+header {
+    color: aliceblue;
+    position: absolute;
+    top: 50px;
+    font-size: 30px;
+    text-shadow: 1px 1px 7px white;
+}
+form {
+    background-color:#005;
+    display: flex;
+    padding: 10px 10px;
+    width:80%;
+    flex-wrap: wrap;
+    gap: 5px;   
+    box-shadow: 0 1px 20px 7px white;
+}
+form input {
+    background-color: #00a;
+    border-radius: 7px;
+    border-color: black;
+    outline: none;
+    border: none;
+    padding: 7px 7px ;
+    color: white;
+    flex-grow: 1;
+}
+form button {
+    background-color: #14a;
+    border-radius: 7px;
+    border: none;
+    flex-grow: 1;
+    cursor: pointer;
+    color: aliceblue;
+}
+form button:hover {
+background-color: rgba(17, 68, 170, 0.418);
+}
+.logo {
+    position: absolute;
+    top: 0%;
+    
+    font-size: 10px;
+    color: white;
+    display: block;
+    width: 100%;
+    text-align: left;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
